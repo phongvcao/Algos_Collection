@@ -192,10 +192,17 @@ class Math {
 public:
 
     static int gcd( int a, int b ) {
-        if ( b == 0 ) return a;
-        return gcd( b, a % b );
+        while ( b != 0 ) {
+            a = b;
+            b = a % b;
+        }
+        return a;
     }
 
+    static int gcdRecursively( int a, int b ) {
+        if ( b == 0 ) return a;
+        return gcdRecursively( b, a % b );
+    }
 };
 
 int main( int argc, char ** argv ) {
