@@ -10,6 +10,7 @@ cmake_minimum_required( VERSION 3.13 )
 # set(CMAKE_CXX_COMPILER "g++")
 # set(CMAKE_CXX_FLAGS_DEBUG "-g")
 # set(CMAKE_CXX_FLAGS "-fno-inline")
+#
 
 project( Algos_Collection )
 
@@ -109,7 +110,7 @@ set( CMAKE_CXX_STANDARD 17 )
 # add_executable(GraphUndirectedDFS_EulerianPath1VisitPerEdge0 GraphUndirectedDFS_EulerianPath1VisitPerEdge0.cpp)
 # add_executable(GraphDirectedDFS_EulerianCycle1VisitPerEdge0 GraphDirectedDFS_EulerianCycle1VisitPerEdge0.cpp)
 # add_executable(GraphDirectedDFS_EulerianPath1VisitPerEdge0 GraphDirectedDFS_EulerianPath1VisitPerEdge0.cpp)
-add_executable(TrieSET_Concise0 TrieSET_Concise0.cpp)
+# add_executable(TrieSET_Concise0 TrieSET_Concise0.cpp)
 # add_executable(TrieBitwiseSET_Concise0 TrieBitwiseSET_Concise0.cpp)
 
 # add_executable(TST10 TST10.cpp)
